@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.pe.idat.pfinal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+
+        android:name=".common.MyApp"
+
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PFinal"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.PagoActivity"></activity>
+        <activity android:name=".activities.MetodoPaymentActivity">
+
+        </activity>
+        <activity android:name=".activities.EnvioActivity" />
+        <activity android:name=".activities.ClienteActivity">
+
+        </activity>
+        <activity android:name=".activities.SearchActivity" />
+        <activity android:name=".activities.CategDetailActivity" />
+        <activity android:name=".activities.DetalleActivity" />
+        <activity
+            android:name=".fragment.MenuActivity"
+            android:label="@string/title_activity_menu" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".activities.Splash4Activity" />
+        <activity android:name=".activities.Splash3Activity" />
+        <activity android:name=".activities.Splash2Activity" />
+        <activity android:name=".activities.SplashActivity" />
+        <activity android:name=".activities.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

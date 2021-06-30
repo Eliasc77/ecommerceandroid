@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+
+    <item
+
+        android:icon="@drawable/ic_shopping_bag"
+        android:title="@string/title_myorder" />
+
+    <item
+
+        android:icon="@drawable/ic_heart_outlined"
+        android:title="@string/title_wysh" />
+    <item
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="@string/title_cart" />
+    <item
+
+        android:icon="@drawable/ic_account"
+        android:title="@string/title_acc" />
+
+
+</menu>
